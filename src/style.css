@@ -1,0 +1,110 @@
+* {
+  list-style: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #b2b0dd;
+    color: #000235;
+}
+
+i {
+    cursor: pointer;
+}
+.container {
+  width: 50%;
+  margin: 50px auto;
+  box-shadow: 0 0 15px #ebe8e8;
+  background-color: #dad5d0;
+  border: 2 5px;
+}
+
+#date {
+    position: absolute;
+    top: 0;
+    right: 26%;
+    color: #3d3939;
+    background-color: #eee;
+    padding: 5px;
+    box-shadow: 0 0 15px #7bb8b2;
+}
+
+.to-do {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ebe8e8;
+}
+
+.to-do h2 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px;
+}
+
+form input {
+  border: none;
+  outline: none; 
+  font-size: 20px;
+  padding: 10px;
+    color: #000235;
+     background-color: #dad5d0;
+}
+
+form > input::placeholder {
+  font-weight: 500;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.to-do button {
+    border: transparent;
+}
+
+.remove-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}
+
+.remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.remove button {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  color: #bfbab6;
+}
+
+.remove button:hover {
+  color: #000;
+}
+
+.task {
+  padding: 10px;
+  outline: none;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.span {
+  text-decoration: none;
+  outline: none;
+}
